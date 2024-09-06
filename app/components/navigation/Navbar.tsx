@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import Logo from "./Logo";
 import { Turn as Hamburger } from "hamburger-react";
-import Link from "next/link";
 import MobileLinks from "./MobileLinks";
 import { FaChevronDown, FaChevronRight } from "react-icons/fa";
 import QuoteBtn from "./QuoteBtn";
@@ -14,7 +13,7 @@ const Navbar = () => {
   };
   return (
     <header className="bg-[#14141d] shadow-sm  fixed top-0 left-0 right-0 z-20">
-      <nav className="flex justify-between items-center px-4 py-2 max-w-[1184px] mx-auto text-white">
+      <nav className="flex justify-between items-center px-4 py-4 max-w-[1184px] mx-auto text-white">
         <div className="">
           <Logo />
         </div>

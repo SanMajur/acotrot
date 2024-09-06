@@ -27,7 +27,7 @@ const Hero = () => {
             helping you achieve your goals.
           </p>
         </div>
-        <div className="text-center mt-10">
+        <div className="text-center pt-10">
           <QuoteBtn href={"#"} linkText={"explore our work"} />
         </div>
       </div>
