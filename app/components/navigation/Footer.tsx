@@ -13,12 +13,12 @@ import Location from "../Location";
 const Footer = () => {
   return (
     <footer className="bg-[rgb(20,20,29)]">
-      <div className="py-10">
+      <div className="py-4">
         <div className="px-8">
           <div className="flex flex-col-reverse lg:flex-row md:max-w-[700px] lg-max-w-[1184px] mx-auto lg:justify-between">
             <div className="flex flex-col text-white gap-8">
               <div className="flex flex-col ">
-                <MobileLinks href={""} linkText={"About"} />
+                <MobileLinks href={""} linkText={"About us"} />
                 <MobileLinks href={""} linkText={"About"} />
                 <MobileLinks href={""} linkText={"About"} />
                 <MobileLinks href={""} linkText={"About"} />

@@ -18,7 +18,7 @@ export default function Home() {
         <Hero />
       </section>
       <section className="bg-[#14141d] min-h-screen">
-        <div className="px-8 py-16 text-center">
+        <div className="p-8 text-center">
           <h1 className="text-white capitalize font-bold text-2xl">
             our services
           </h1>
