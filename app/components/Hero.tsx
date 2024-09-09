@@ -3,10 +3,10 @@ import QuoteBtn from "./navigation/QuoteBtn";
 
 const Hero = () => {
   return (
-    <div className="min-h-screen w-full relative z-10">
-      <div className="absolute bg-grid-bg bg-no-repeat bg-cover bg-center left-0 right-0 top-0 h-screen"></div>
-      <div className="absolute top-0 left-0 right-0 h-screen bg-black/80"></div>
-      <div className="relative flex justify-center align-center flex-col px-8 mt-14">
+    <div className="min-h-[90vh] w-full relative z-10">
+      <div className="absolute bg-grid-bg bg-no-repeat bg-cover bg-center left-0 right-0 top-0 h-[90vh]"></div>
+      <div className="absolute top-0 left-0 right-0 h-[90vh] bg-black/80"></div>
+      <div className="relative flex justify-center align-center flex-col px-8 my-14">
         <div className=" lg:w-[720px] mx-auto mt-8 md:mt-20 xl:mt-32">
           <h1 className="text-[32px] text-center mt-14 text-white  font-bold">
             Welcome to Acotrot General Trading Co.Ltd &quot;Going
@@ -29,7 +29,7 @@ const Hero = () => {
             helping you achieve your goals.
           </p>
         </div>
-        <div className="text-center pt-10">
+        <div className="text-center pt-4 md:pt-8">
           <QuoteBtn href={"#"} linkText={"explore our work"} />
         </div>
       </div>
